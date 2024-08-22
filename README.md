@@ -54,7 +54,7 @@ package-template/
 Contribuições são bem-vindas! Sinta-se à vontade para abrir um issue ou um pull request.
 
 ## 📄 Licença
-Este projeto está licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENCE](LICENCE.md) para mais detalhes.
 
  ## About Me:
  Uma breve descrição sobre o autor...
