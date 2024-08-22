@@ -2,7 +2,7 @@
 
 Este repositório fornece um template básico para a criação de pacotes Python. Ele é projetado para facilitar o desenvolvimento e a distribuição de seus pacotes.
 
-## 🚀 Começando
+## 🚀 Descrição
 Siga estas instruções para configurar e usar o template.
 
 ### 📦 Instalação
