@@ -41,14 +41,29 @@ package-template/
 3. Instale as dependências: `pip install -r requirements.txt`
 4. Execute os testes: `pytest`
 
-## 📜 Documentação
+## Gerar os binários e publicar
 
-### Funções e Classes
+### Para gerar os binários
 
 ```
-    minha_funcao(param1, param2): Descrição da função.
-    MinhaClasse: Descrição da classe.
+python -m pip install --upgrade pip
+python -m pip install twine
+python -m pip install setuptools
+python -m pip install wheel
+
+# criar uma source distribution e uma distribuição binária
+python setup.py sdist bdist_wheel
 ```
+
+## CheckList para publicação
+ 
+ - [ ] Criar conta no [Test Pypi](https://test.pypi.org/account/register/)
+ - [ ] Publicar no Test Pypi
+ - [ ] Instalar pacote usando Test Pypi
+ - [ ] Testar pacote
+ - [ ] Criar conta no [Pypi](https://pypi.org/account/register/)
+ - [ ] Publicar no Pypi
+ - [ ] Instalar pacote usando Pypi
 
 ## 🤝 Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir um issue ou um pull request.
